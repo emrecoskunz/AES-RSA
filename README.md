@@ -3,7 +3,7 @@
 AES ve RSA ile Güvenli Şifreleme ve Çözme Klavuzu
 Günümüzde, veri güvenliği her zamankinden daha önemli. Bu klavuz, AES ve RSA algoritmalarını bir arada kullanarak dosyalarınızı şifrelemenizi ve güvenle saklamanızı sağlar. AES, güçlü bir simetrik şifreleme algoritmasıdır, ancak tek başına kullanıldığında anahtarın güvenliği büyük önem taşır. Bu nedenle, AES anahtarınızı RSA ile şifreleyerek, anahtarınızı da koruma altına alacağız. Bu kombinasyon, güvenliği maksimuma çıkaran bir çözüm sunar.
 
-AES anahtarı simetrik şifreleme için kullanılırken, RSA ise asimetrik şifreleme sağlayarak anahtar güvenliğinizi artırır. Bu sayede, AES anahtarınızın güvenliği, RSA'nın güçlü şifreleme özellikleriyle sağlanır. Hadi adım adım nasıl çalıştığını görelim.
+AES anahtarı simetrik şifreleme için kullanılırken, RSA ise asimetrik şifreleme sağlayarak anahtar güvenliğinizi artırır. Bu sayede, AES anahtarınızın güvenliği, RSA'nın güçlü şifreleme özellikleriyle sağlanır.
 
 1. AES Anahtarı Oluşturma:
 İlk olarak, AES algoritmasıyla bir anahtar oluşturuyoruz. AES anahtarı, şifreleme işleminin temel taşıdır. Şifreleyeceğimiz verilerin güvenliğini sağlayacak olan bu anahtarı, güçlü ve rastgele bir şekilde oluşturuyoruz. Bu anahtarın kırılması imkansız olmasa da, modern bilgisayarlarla bile neredeyse imkansızdır. AES-256, şifreleme dünyasında en güçlü algoritmalardan biri olarak kabul edilir.
