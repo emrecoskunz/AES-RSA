@@ -83,7 +83,7 @@ RSA özel anahtarınız kesinlikle güvenli bir yerde saklanmalıdır. Eğer öz
 Her işlem sonrasında, şifrelenmiş ve çözülen anahtar dosyaları otomatik olarak silinir. Bu, ekstra güvenlik katmanı sağlar ve iz bırakmadan şifreleme işlemleri yapılmasını mümkün kılar.
 AES ve RSA şifreleme yöntemleri güçlü ve kırılması çok zor sistemlerdir. AES-256, günümüz bilgisayarları ile çözülmesi neredeyse imkansız olan bir algoritmadır. RSA ise asimetrik şifrelemede en güvenli seçeneklerden biridir.
 
-Özet
+# Özet
 
 AES Anahtarı Oluşturma: ```python python aes_keygen.py ```
 
